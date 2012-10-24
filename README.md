@@ -10,3 +10,7 @@ How to run it on Android phone
 
     Replace
         Copy the zImage and *.ko files to the zip archive
+
+
+For SGS3 kernel compilation, please refer to the post: 
+    http://stackoverflow.com/questions/13046010/why-my-kernel-module-make-gives-this-error-bus-error-core-dumped#comment17715978_13046010
