@@ -14,3 +14,10 @@ How to run it on Android phone
 
 For SGS3 kernel compilation, please refer to the post: 
     http://stackoverflow.com/questions/13046010/why-my-kernel-module-make-gives-this-error-bus-error-core-dumped#comment17715978_13046010
+	
+	
+How to compile on Beagle Board?
+	Check Makefile for Beagle Board: Makefile_BB, and then just *make*
+	Notice:
+		Check the kernel source code here: /home/tomxue/RobertCNelson/KERNEL
+		Compile the above kernel source code and check whether this file exists: Module.symvers, otherwise bug occurs: no symbol version for module_layout
